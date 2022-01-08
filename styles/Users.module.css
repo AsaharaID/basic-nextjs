@@ -1,0 +1,19 @@
+.card{
+    padding: 16px;
+    box-shadow: 6px 3px 13px 1px rgb(0 0 0 / 35%);
+    width: 250px;
+    border-radius: 12px;
+    margin: 12px;
+    display: inline-block;
+}
+.card:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.card:active {
+  background-color: black;
+  box-shadow: 5px 5px white;
+  transform: translateY(4px);
+}
