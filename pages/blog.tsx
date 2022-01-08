@@ -1,8 +1,9 @@
+import Layout from "../components/Layout";
 
 export default function Blog() {
 	return (
-		<div>
-			<p>Blog Page</p>
-		</div>
+		<Layout>
+			<p className="title-homepage">Blog Page</p>
+		</Layout>
 	);
 }

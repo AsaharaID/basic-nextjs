@@ -1,14 +1,14 @@
-/* eslint-disable import/export */
 /** @format */
 
-import Header from '../components/header';
+import Footer from "../components/Footer";
+import Header from "../components/header";
+import Layout from "../components/Layout";
+import styles from "../styles/Home.module.css";
 
-// eslint-disable-next-line react/function-component-definition
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <h1>Avec Plaisir</h1>
-    </>
-  );
+	return (
+		<Layout>
+			<h1 className={styles["title-homepage"]}>Avec Plaisir</h1>
+		</Layout>
+	);
 }
